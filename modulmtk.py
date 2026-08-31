@@ -14,27 +14,3 @@ def bilangan_prima(angka):
             return False
 
     return True
-
-
-def luas_persegi(sisi):
-    return sisi * sisi
-
-
-def luas_persegi_panjang(panjang, lebar):
-    return panjang * lebar
-
-
-def luas_segitiga(alas, tinggi):
-    return 0.5 * alas * tinggi
-
-
-def luas_lingkaran(jari_jari):
-    return 3.14 * jari_jari * jari_jari
-
-
-def keliling_persegi(sisi):
-    return 4 * sisi
-
-
-def keliling_persegi_panjang(panjang, lebar):
-    return 2 * (panjang + lebar)
